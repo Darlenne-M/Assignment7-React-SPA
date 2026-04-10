@@ -1,0 +1,49 @@
+
+.title{
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+   
+}
+
+h1,h2{
+    color: plum;
+}
+
+.results-section{
+    display: flex;
+    justify-content: space-around; 
+    color:purple;  
+    border: 5px solid rgba(255, 0, 221, 0.264);
+    padding: 20px;
+    margin: 10px 180px 50px 180px;
+}
+
+button{
+    border: solid rgba(255, 192, 203, 0.62);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(255, 192, 203, 0.62);
+}
+
+.result{
+    font-size: 20px;
+    font-weight: bold;
+}
+.whos-throw{
+    position: absolute;
+    bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img{
+border: 2px solid rgba(128, 128, 128, 0.616);
+padding: 10px;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.226);
+}
