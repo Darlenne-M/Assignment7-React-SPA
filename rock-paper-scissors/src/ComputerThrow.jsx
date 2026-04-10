@@ -7,19 +7,26 @@ function ComputerThrow({trigger, onComputerChoice, setThinking}) {
     
     function getRandomThrow() {
         const choices = ['rock', 'paper', 'scissors'];
+         let i = 0;
+
+         
         let shuffle = setInterval(() => {
-            const randomChoice = choices[Math.floor(Math.random() * choices.length)];
-            setComputerChoice(randomChoice);
+           
+            setComputerChoice(choices[i]);
+            console.log(choices[i]);
+            i++;
+            
             //console.log("Computer throw: bitxg", randomChoice);
         }, 1000);
 
         setTimeout(() => {
             clearInterval(shuffle);
+            console.log("3");
             const randomChoice = choices[Math.floor(Math.random() * choices.length)];
             setComputerChoice(randomChoice);
             onComputerChoice(randomChoice);
             setThinking(false);
-        },3000);
+        },3500);
       
 
     } useEffect(() => {
