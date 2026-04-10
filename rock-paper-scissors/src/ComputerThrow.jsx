@@ -9,6 +9,7 @@ function ComputerThrow({trigger, onComputerChoice, setThinking}) {
         const choices = ['rock', 'paper', 'scissors'];
          let i = 0;
 
+         
         let shuffle = setInterval(() => {
            
             setComputerChoice(choices[i]);
